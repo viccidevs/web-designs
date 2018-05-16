@@ -1,0 +1,133 @@
+/* 
+***************
+* *miscellaneous
+***************
+*/
+.container{
+	margin-top: 10px;
+}
+blockquote, blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+h1, h2{
+	letter-spacing: -1px;
+}
+h2{
+	font-size:26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+}
+a{
+	color: #7e7e7e;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:hover, .selected{
+	color:black;
+}
+.button{
+	background-color:#242324;
+	padding: 6px;
+}
+.button:hover{
+	color: white;
+}
+li{
+	margin-left: 24px;
+}
+.col-md-4{
+	padding-left:0px;
+}
+.col-md-8{
+	padding-left: 0px
+}
+/* 
+***************
+* *header
+***************
+*/
+
+header{
+	overflow: hidden;
+}
+
+header h1{
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 174px;
+	height: 23px;
+	margin: 10px 0px 22px;
+	float: left;
+} 
+
+/*
+***************
+* *nav
+***************
+*/
+
+nav {
+	float: right;
+	padding-top: 12px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-transform: lowercase;
+}
+
+
+/*
+****************
+* *banner
+****************
+*/
+.banner{
+	background: url(../img/bg.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+	clear: both;
+	padding: 0px;
+}
+.callout{
+	background: black;
+	height: 231px;
+	margin-left: 60px;
+}
+
+/*
+****************
+* *main
+****************
+*/
+.main{
+	margin-top: 20px;
+	padding-left: 0px;
+}
+.main blockquote::before, .main blockquote::after{
+	content: '"';
+	font-size: 40px;
+	color: #bfbfbf;
+}
+
+
+/*
+****************
+* *footer
+****************
+*/
+footer{
+	clear: both;
+}
