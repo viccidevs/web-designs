@@ -10,6 +10,7 @@ blockquote, blockquote p{
 	font-size: 15px;
 	line-height: 20px;
 	font-style: italic;
+	color:#0e0e0e;
 }
 p{
 	font-size: 13px;
@@ -25,6 +26,7 @@ h2{
 	border-bottom: 1px solid #d1d1d1;
 	padding-bottom: 20px;
 	margin-bottom: 15px;
+	line-height: 1em;
 }
 a{
 	color: #7e7e7e;
@@ -45,6 +47,9 @@ a:hover, .selected{
 }
 li{
 	margin-left: 24px;
+}
+#box{
+	margin-left: 10px;
 }
 .col-md-4{
 	padding-left:0px;
@@ -95,7 +100,7 @@ nav a{
 ****************
 */
 .banner{
-	background: url(../img/bg.jpg) no-repeat;
+	background: url(../img/1.jpg) no-repeat;
 	width: 695px;
 	height: 231px;
 	clear: both;
@@ -116,10 +121,26 @@ nav a{
 	margin-top: 20px;
 	padding-left: 0px;
 }
-.main blockquote::before, .main blockquote::after{
-	content: '"';
+.main blockquote p{
+	padding-left: 30px;
+}
+.main blockquote::before,
+.main blockquote::after{
+	/*content: '"';*/
 	font-size: 40px;
 	color: #bfbfbf;
+	font-style: italic;
+}
+.main blockquote p:first-child:before{
+	position: absolute;
+	top: 7px;
+	left:0;
+}
+.main blockquote p:last-child:after{
+	float: right;
+	position: absolute;
+	bottom: -7px;
+	right:0;
 }
 
 
